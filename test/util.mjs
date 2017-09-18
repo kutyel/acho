@@ -1,6 +1,4 @@
-'use strict'
-
-module.exports = {
+export default {
   randomInterval: (min, max) =>
     Math.floor(Math.random() * (max - min + 1) + min),
 

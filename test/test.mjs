@@ -1,15 +1,12 @@
-'use strict'
+import should from 'should'
 
-const should = require('should')
-
-const util = require('./util')
-const acho = require('..')
-const Acho = acho
+import acho from '..'
+import util from './util'
 
 describe('acho', () => {
   describe('constructor', () => {
     it('non new keyword', () => should(acho()).be.an.Object())
-    it('new keyword', () => should(new Acho()).be.an.Object())
+    it('new keyword', () => should(new acho()).be.an.Object())
   })
 
   describe('internal store', () => {

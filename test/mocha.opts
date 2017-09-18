@@ -1,4 +1,5 @@
 --bail
+--compilers js:@std/esm
 --require should
 --reporter spec
 --timeout 120000

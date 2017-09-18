@@ -27,6 +27,7 @@
     "tiny"
   ],
   "dependencies": {
+    "@std/esm": "^0.10.1",
     "chalk": "~2.1.0",
     "fmt-obj": "~2.0.0",
     "pretty-ms": "~3.0.0",
